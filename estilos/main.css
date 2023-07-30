@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box; 
+}
+html{
+    font-size: 20px;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.descricao__servicos{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.descricao__servicos__texto{
+    color: #43611B;
+   
+    font-weight: bold;
+}
+span{
+    color: grey;
+    font-size: 15px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+

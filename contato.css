@@ -1,0 +1,53 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 20px;
+    border: 1px;
+    font-family: 'Segoe UI';
+}
+.apresentacao__titulo{
+    text-align: center;
+}
+
+   
+
+.campo{
+    
+    padding: 5px;
+    width: 35%;
+    
+}
+
+.texto{
+    width: 36%;
+}
+.btn{
+    border: 1px solid;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #23CF5C;
+    width: 10%;
+    text-align: center;
+}
+
+.campo:hover{
+    background-color: rgb(218, 216, 216);
+}
+.texto:hover{
+    background-color: rgb(218, 216, 216);
+}
+
+.btn:hover{
+    background-color: #098532
+}
+
+@media(max-width:480px){
+    .btn{
+        width: 35%;
+
+    }
+}

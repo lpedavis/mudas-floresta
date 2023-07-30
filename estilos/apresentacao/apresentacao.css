@@ -1,0 +1,24 @@
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: blanchedalmond;
+    
+    padding:5rem;
+    
+}
+
+.apresentacao__conteudo__titulo{
+    color: #43611B;
+    
+    
+    
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 20px;
+    color: #809764;
+    padding-top:15px ;
+
+}

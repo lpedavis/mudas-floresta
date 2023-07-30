@@ -1,0 +1,19 @@
+.rodape{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+   align-items: center;
+   background-color: #1d3301;
+   gap: 15px;
+   
+}
+
+.rodape__titulo {
+    color: white;
+}
+
+.rodape__titulo__secundario{
+    color: white;
+}

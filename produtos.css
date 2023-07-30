@@ -1,0 +1,24 @@
+.produtos__lista{
+    
+    display: flex;
+    list-style-type: none;    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:80px;
+    margin-top: 30px;
+   
+}
+
+.produtos__img{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.produtos__img:hover{
+    border: 2px solid green;
+    border-radius: 100%;
+    
+}
+
